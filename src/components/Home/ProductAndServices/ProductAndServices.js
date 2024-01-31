@@ -11,13 +11,13 @@ function ProductAndServices() {
 
     <CardsContainer>
       <Card
-      bgImage='././images/home-page/prod-serv/prod-improv-heading.svg'>
-        <p><span>Design and indenisation</span> of waterjet propulsion system, electric popped propulsion system,
+      bgImage='./images/home-page/prod-serv/prod-improv-heading.svg'>
+        <p><span><b>Design and indenisation</b></span> of waterjet propulsion system, electric popped propulsion system,
           hydraulic steering gear system for marine vehicles such as ships, amphibious vehicles, underwater vehicles.
         </p>
       </Card>
       <Card
-      bgImage='./images/product-and-services/product-and-services-bg-1.png'>
+      bgImage='./images/home-page/prod-serv/prod-improv-bg.png'>
 
       </Card>
     </CardsContainer>

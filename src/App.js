@@ -1,20 +1,13 @@
 import React from 'react';
-import HeroSection from './components/Home/HeroSection/HeroSection';
-import SeaconvoyDesc from './components/Home/SeaconvoyDesc/SeaconvoyDesc';
-import CustomersScroller from './components/Home/CustomersScroller/CustomersScroller';
-import ProductAndServices from './components/Home/ProductAndServices/ProductAndServices';
-import AboutUs from './components/Home/AboutUs/AboutUs';
+
 import './App.css';
+import Home from './Pages/Home';
 
 
 function App() {
   return (
     <div>
-      <HeroSection />
-      <SeaconvoyDesc />
-      <CustomersScroller />
-      <AboutUs/>
-      <ProductAndServices />
+      <Home></Home>
       
     </div>
   );
