@@ -1,4 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&family=Poppins:wght@200;400&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+    text-decoration: none;
+    list-style: none;
+
+    --bg-color: white;
+    --primary-color: #005669; 
+
+}
+
+
+
 .App {
+  margin: 0 auto;
+  max-width: 1350px;
   text-align: center;
 }
 
