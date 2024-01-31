@@ -14,7 +14,7 @@ function AboutUs() {
         defense application for powering of amphibious vehicles brings in invaluable comprehensive professional
         resource.</p>
 
-      <a class="learn-more">Learn More</a>
+      <a class="learn-more" href='#learnmore'>Learn More</a>
     </div>
   </div>
   );

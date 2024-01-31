@@ -1,9 +1,9 @@
 import React from 'react';
 import HeroSection from './components/HeroSection/HeroSection';
-import SeaconvoyDesc from './Home/SeaconvoyDesc/SeaconvoyDesc';
-import CustomersScroller from './Home/CustomersScroller/CustomersScroller';
-import ProductAndServices from './Home/ProductAndServices/ProductAndServices';
-import AboutUs from './Home/AboutUs/AboutUs';
+import SeaconvoyDesc from './components/Home/SeaconvoyDesc/SeaconvoyDesc';
+import CustomersScroller from './components/Home/CustomersScroller/CustomersScroller';
+import ProductAndServices from './components/Home/ProductAndServices/ProductAndServices';
+import AboutUs from './components/Home/AboutUs/AboutUs';
 import './App.css';
 
 

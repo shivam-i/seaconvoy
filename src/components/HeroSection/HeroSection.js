@@ -7,7 +7,7 @@ function HeroSection() {
     <div className="hero-section">
       <img className="hero-section-bg-pic" src="./images/home-page/hero-section/hero-section-bg.png" alt="" />
       <NavBar />
-      <img className="fastest-growing-seaconvoy" src="./images/fastest-growing-seaconvoy.png" alt="" />
+      <img className="fastest-growing-seaconvoy" src="./images/home-page/hero-section/hero-section-title.svg" alt="" />
     </div>
   );
 }
