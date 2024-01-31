@@ -1,0 +1,30 @@
+.about-us-container {
+    left: 0;
+    width: 1350px;
+    height: 50vh;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+} .about-us-container img {
+    z-index: -10;
+}
+
+.about-us-desc-heading {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.about-us-desc {
+    /* position: absolute; */
+    margin: 50px 60px 0px 0px;
+    top: 0;
+    right: -30px;
+    width: 600px;
+} .about-us-desc a {
+    padding: 20px;
+    margin: 17px;
+    color: white;
+    background-color: var(--primary-color);
+} .about-us-desc p {
+    margin: 0px 0px 40px 20px;
+}

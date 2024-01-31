@@ -1,0 +1,36 @@
+.seaconvoy-desc {
+    height: 100vh;
+    display: flex; /* Makes direct children (.seaconvoy-desc-content) flex items */
+  }
+  
+  .seaconvoy-desc-content {
+    display: flex;
+    width: 100%;
+  }
+  
+  .seaconvoy-desc-container, .seaconvoy-desc-bg-pic {
+    flex: 1;
+  }
+  
+  .seaconvoy-desc-bg-pic {
+    z-index: -10;
+    height: 100vh; 
+    object-fit: cover; 
+  }
+  
+  .seaconvoy-desc-heading {
+    margin: 80px 0px 10px 0px;
+  }
+  
+  .seaconvoy-desc-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 100px; 
+  }
+  
+  .seaconvoy-desc-container p span {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  

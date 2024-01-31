@@ -13,8 +13,9 @@ function App() {
       <HeroSection />
       <SeaconvoyDesc />
       <CustomersScroller />
-      <ProductAndServices />
       <AboutUs/>
+      <ProductAndServices />
+      
     </div>
   );
 }

@@ -3,22 +3,32 @@ import './customers-scroller.css';
 
 function CustomersScroller() {
   return (
-    <div className="our-customers-scroller">
-      <img src="./images/our-customers/our-customers-heading.png" alt="our-customers" class="our-customers-heading"
-      width="700px"/>
+    <div className="our-customers-container">
+      <div >
+        <img src="./images/home-page/our-customers/our-customers-heading.svg" alt="our-customers" className="our-customers-heading" width="700px"/>
+      </div>
 
-    <div class="our-customers-scroller">
-      <marquee behavior="" direction="">
-        <img src="./images/our-customers/iitm.png" alt=""/>
-        <img src="./images/our-customers/niot.png" alt=""/>
-        <img src="./images/our-customers/drdo.png" alt=""/>
-        <img src="./images/our-customers/mmps.png" alt=""/>
-        <img src="./images/our-customers/grse.png" alt=""/>
-        <img src="./images/our-customers/sandvik.png" alt=""/>
-        <img src="./images/our-customers/md.png" alt=""/>
-        <img src="./images/our-customers/garware.png" alt=""/>
-      </marquee>
-    </div>
+      <div className="our-customers-scroller">
+        <div className="scrolling-wrapper">
+          <img src="./images/home-page/our-customers/iitm.png" alt=""/>
+          <img src="./images/home-page/our-customers/niot.png" alt=""/>
+          <img src="./images/home-page/our-customers/drdo.png" alt=""/>
+          <img src="./images/home-page/our-customers/mmps.png" alt=""/>
+          <img src="./images/home-page/our-customers/grse.png" alt=""/>
+          <img src="./images/home-page/our-customers/sandvik.png" alt=""/>
+          <img src="./images/home-page/our-customers/md.png" alt=""/>
+          <img src="./images/home-page/our-customers/garware.png" alt=""/>
+          {/* Repeat the images for a seamless transition */}
+          <img src="./images/home-page/our-customers/iitm.png" alt=""/>
+          <img src="./images/home-page/our-customers/niot.png" alt=""/>
+          <img src="./images/home-page/our-customers/drdo.png" alt=""/>
+          <img src="./images/home-page/our-customers/mmps.png" alt=""/>
+          <img src="./images/home-page/our-customers/grse.png" alt=""/>
+          <img src="./images/home-page/our-customers/sandvik.png" alt=""/>
+          <img src="./images/home-page/our-customers/md.png" alt=""/>
+          <img src="./images/home-page/our-customers/garware.png" alt=""/>
+        </div>
+      </div>
     </div>
   );
 }
