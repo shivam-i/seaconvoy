@@ -1,23 +1,64 @@
 .nav-bar {
     display: flex;
-    padding-top: 15px;
     justify-content: space-between;
     padding-top: 38px;
+    position: relative; /* Added for absolute positioning context */
+    z-index: 2; /* Ensure navbar is above other elements */
 }
 
 .nav-links {
     display: flex;
+    list-style: none; /* Remove bullet points */
 } 
 .nav-links li {
     font-size: 16px;
     font-weight: 500;
-    margin: 10px 25px;
+    margin:5px 25px;
 } 
 .nav-links li a {
     color: white;
+    text-decoration: none; /* Optional: Remove underline from links */
 }   
 
-.nav-bar-logo{
+.nav-bar-logo {
     margin-left: 70px;
-    
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 25px;
+    padding: 10px 15px;
+}
+
+
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: flex-end; 
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 3; 
+    }
+
+    .nav-links.visible {
+        display: flex;
+    }
 }
