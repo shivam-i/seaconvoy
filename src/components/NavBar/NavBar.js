@@ -16,10 +16,10 @@ function NavBar() {
       </button>
       <ul className={`nav-links ${isMenuVisible ? 'visible' : ''}`}>
         <li><a href="/">Home</a></li>
-        <li><a href="/">Tools</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Gallery</a></li>
-        <li><a href="/">Services</a></li>
+        <li><a href="/Tools">Tools</a></li>
+        <li><a href="/About">About</a></li>
+        <li><a href="/Gallery">Gallery</a></li>
+        <li><a href="/Services">Services</a></li>
       </ul>
     </nav>
   );
