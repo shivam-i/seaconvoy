@@ -1,0 +1,17 @@
+.meet-the-team-container img {
+    left: 50%;
+    transform: translate(37.5%, 0);
+    margin: 30px 0;
+}
+
+.team-members {
+    display: grid;
+
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, 0.3fr);
+    gap: 20px 0px;
+}
+
+.team-members img {
+    width: 300px;
+}

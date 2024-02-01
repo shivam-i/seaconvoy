@@ -1,0 +1,20 @@
+.who-are-we {
+    display: flex;
+    /* justify-content: ; */
+}
+
+.who-are-we img {
+    width: 300px;
+    margin: 0 100px 0 65px;
+}
+
+.who-are-we p {
+    width: 40%;
+    margin: auto;
+}
+
+.who-are-we-line {
+    right: 0;
+    left: 0;
+    margin: 50px 0;
+}

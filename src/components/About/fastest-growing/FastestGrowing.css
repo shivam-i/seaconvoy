@@ -1,0 +1,19 @@
+.fastest-growing-heading {
+    width: 1000px;
+    margin: 30px 0px 0px 65px;
+}
+
+.fastest-growing-desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fastest-growing-desc div {
+    width: 25%;
+}
+
+.fastest-growing-line {
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+}
