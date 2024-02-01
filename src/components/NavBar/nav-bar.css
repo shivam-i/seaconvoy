@@ -8,6 +8,7 @@
 
 .nav-links {
     display: flex;
+    margin-right: 40px;
     list-style: none; /* Remove bullet points */
 } 
 .nav-links li {
