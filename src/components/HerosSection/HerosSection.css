@@ -30,3 +30,14 @@
 
     margin: 40px auto;
 }
+
+@media only screen and (max-width: 767px) {
+    .heros-section {
+        width: 100vw;
+    }
+
+    .heros-section-bg-pic {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
