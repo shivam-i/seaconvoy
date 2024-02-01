@@ -1,0 +1,25 @@
+.galler-section{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+  .gallery-grid {
+    margin-top: 100px;
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: space-around;
+   gap: 20px;
+  }
+  
+  .gallery-item img {
+    width: 425px; 
+    height: 270px; 
+    object-fit: cover; 
+  }
+  
+  .sized-box{
+    height: 200px;
+    width: 100%;
+  }
