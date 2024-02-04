@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {  Link } from 'react-router-dom';
 import './nav-bar.css';
 
 function NavBar() {
@@ -15,11 +16,13 @@ function NavBar() {
         ☰
       </button>
       <ul className={`nav-links ${isMenuVisible ? 'visible' : ''}`}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/Tools">Tools</a></li>
-        <li><a href="/About">About</a></li>
-        <li><a href="/Gallery">Gallery</a></li>
-        <li><a href="/Services">Services</a></li>
+       
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/tools">Tools</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/gallery">Gallery</Link></li>
+        <li><Link to="/services">Services</Link></li>
+
       </ul>
     </nav>
   );

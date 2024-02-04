@@ -1,13 +1,14 @@
-.galler-section{
+.gallery-section{
     width: 100%;
     justify-content: center;
     text-align: center;
+    margin-top: 50px  ;
 }
 
   .gallery-grid {
-    margin-top: 100px;
+    margin-top: 50px;
     display: grid;
-    width: 80%;
+    width:  1272px;
     grid-template-columns: repeat(3, 1fr); 
     justify-content: space-around;
    gap: 20px;

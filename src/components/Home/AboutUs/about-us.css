@@ -28,3 +28,12 @@
 } .about-us-desc p {
     margin: 0px 0px 40px 20px;
 }
+
+.card-content-aboutus {
+    margin-left: 132px; /* Adjust this value as needed */
+  }
+
+
+.card-content-learnmore{
+    padding-top: 30px;
+}

@@ -1,0 +1,25 @@
+.mgaller-section{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+  .mgallery-grid {
+    margin-top: 100px;
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: space-around;
+   gap: 20px;
+  }
+  
+  .mgallery-item img {
+    width: 600px; 
+    height: 400px; 
+    object-fit: cover; 
+  }
+  
+  .sized-box{
+    height: 200px;
+    width: 100%;
+  }

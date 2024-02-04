@@ -9,6 +9,7 @@ function ProductAndServices() {
 
     <center><img  src="./images/home-page/prod-serv/prod-serv-heading.svg" alt="" width="1000px"/></center>
 
+    <div className='services-improvement-cards'>
     <CardsContainer>
       <Card>
         <div className='product-improve'>
@@ -27,7 +28,7 @@ function ProductAndServices() {
 
       </Card>
       <Card>
-        <div className='product-improve'>
+        <div className='product-service'>
         <img src="./images/home-page/prod-serv/serv-improv-heading.svg" alt=""></img>
         <p>
 Design, sub-system development, model testing, validation and consultation for certification services related to marine vehicles are currently affordable only to large shipbuilding industries. We provide similar services tailored for small shipyards, boat builders, and original equipment manufacturers (OEMs) for marine-related sub-systems in collaboration with research institutes
@@ -36,6 +37,7 @@ such as IIT Madras, DRDO Lab – NSTL, and NIOT.
         </div>
       </Card>
     </CardsContainer>
+    </div>
     
     </div>
   );

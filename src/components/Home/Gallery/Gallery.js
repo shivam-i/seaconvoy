@@ -3,16 +3,17 @@ import './gallery.css';
 
 function Gallery() {
   const images = [
-    './images/home-page/prod-serv/serv-improv-bg.png',
-    './images/home-page/prod-serv/serv-improv-bg.png',
-    './images/home-page/prod-serv/serv-improv-bg.png',
-    './images/home-page/prod-serv/serv-improv-bg.png',
-    './images/home-page/prod-serv/serv-improv-bg.png',
-    './images/home-page/prod-serv/serv-improv-bg.png',
-    './images/home-page/prod-serv/serv-improv-bg.png',
-    './images/home-page/prod-serv/serv-improv-bg.png',
-    './images/home-page/prod-serv/serv-improv-bg.png',
+    './images/home-page/gallery/Seaconvoy_010224_1.png',
+    './images/home-page/gallery/Seaconvoy_010224_2.jpg',
+    './images/home-page/gallery/Seaconvoy_010224_3.png',
+    './images/home-page/gallery/Seaconvoy_010224_4.JPG',
+    './images/home-page/gallery/Seaconvoy_010224_5.JPG',
+    './images/home-page/gallery/Seaconvoy_010224_6.JPG',
+    './images/home-page/gallery/Seaconvoy_010224_7.JPG',
+    './images/home-page/gallery/Seaconvoy_010224_8.JPG',
+    './images/home-page/gallery/Seaconvoy_010224_9.jpg',
     
+
   ];
 
   return (
