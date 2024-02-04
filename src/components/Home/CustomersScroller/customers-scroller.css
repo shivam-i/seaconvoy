@@ -4,11 +4,12 @@
     height: 50vh;
     width: 100%;
     
-    margin-top: 20px;
+    margin: 40px 0;
 }
 
 .our-customers-heading {
-    left: 108px;
+    margin-left: 110px;
+    margin-bottom: 30px;
 }
 
 .our-customers-scroller {

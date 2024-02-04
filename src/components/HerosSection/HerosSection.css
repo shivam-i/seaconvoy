@@ -1,13 +1,18 @@
 .heros-section {
     height: 100vh;
+    /* max-width: 100vw; */
 }
 
-.heros-section-bg-pic {
+.heros-section-bg-container {
     z-index: -10;
     left: 0;
     width: 100%;
     height: 100vh;
     position: absolute;
+}
+.heros-section-bg-pic{
+    height: 100vh;
+    width: 100% ;
 }
 
 .heros-section-title {
@@ -32,11 +37,14 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .heros-section {
+    .heros-section{
         width: 100vw;
     }
+    .heros-section-title {
+        width: 300px;
+    }
 
-    .heros-section-bg-pic {
+    .heros-section-bg-container {
         height: 100vh;
         overflow: hidden;
     }
