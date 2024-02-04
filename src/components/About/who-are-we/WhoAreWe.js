@@ -7,6 +7,7 @@ function WhoAreWe() {
         <div className="who-are-we-container">
             <div className="who-are-we">
                 <img src="./images/about-page/who-are-we/who-are-we.svg" alt="" className="who-are-we-heading" />
+                <img src="./images/about-page/who-are-we/who-are-we-mobile.svg" alt="" className="who-are-we-heading-mobile" />
                 <p>The team members exposure at IIT Madras for a decade in the fields of hydrodynamic testing, validation of designs, consulting for shipyards and boat builders, design approvals, and product development related to defence application for powering of amphibious vehicles brings in invaluable comprehensive professional resource.
                 </p>
             </div>

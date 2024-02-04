@@ -1,5 +1,6 @@
 import React from "react";
 import HerosSection from "../components/HerosSection/HerosSection";
+import Footer from "../components/Footer/Footer";
 import './main-gallery.css';
 
 
@@ -25,7 +26,7 @@ function Gallery() {
     
     return (
       <div>
-        <HerosSection imgUrl="./images/gallery/heros-section/heros-section-bg.png" titleUrl="./images/gallery/heros-section/gallery-heading.svg"/> 
+        <HerosSection imgUrl="./images/gallery/heros-section/heros-section-bg.png" imgUrlMobile="./images/gallery/heros-section/heros-section-bg-mobile.png" titleUrl="./images/gallery/heros-section/gallery-heading.svg" titleUrlMobile="./images/gallery/heros-section/gallery-heading-mobile.svg"/> 
 
         <div className="mgallery-section">
     
@@ -38,9 +39,10 @@ function Gallery() {
         </div>
         </center>
 
-        <div className='sized-box'></div>
+        <div className='sized-box-gallery-page'></div>
         </div>
 
+        <Footer />
       </div>
     );
   }

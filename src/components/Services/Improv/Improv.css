@@ -14,5 +14,7 @@
     .improv-container {
       grid-template-columns: repeat(1, auto);
       grid-template-rows: repeat(3, auto);
-    }
+    } .improv-container img {
+      width: 375px;
+  }
   }

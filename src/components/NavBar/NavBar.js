@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {  Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './nav-bar.css';
 
 function NavBar() {
@@ -11,12 +11,12 @@ function NavBar() {
 
   return (
     <nav className="nav-bar">
-      <img className="nav-bar-logo" src="./images/logo.png" alt="website-logo" />
+      <Link to="/"><img className="nav-bar-logo" src="./images/logo.png" alt="website-logo" /></Link>
       <button className="hamburger" onClick={toggleMenu}>
         ☰
       </button>
       <ul className={`nav-links ${isMenuVisible ? 'visible' : ''}`}>
-       
+
         <li><Link to="/">Home</Link></li>
         <li><Link to="/tools">Tools</Link></li>
         <li><Link to="/about">About</Link></li>

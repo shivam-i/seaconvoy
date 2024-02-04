@@ -1,3 +1,7 @@
+.who-are-we-heading-mobile {
+    display: none;
+}
+
 .who-are-we {
     display: flex;
     /* justify-content: ; */
@@ -18,3 +22,36 @@
     left: 0;
     margin: 50px 0;
 }
+
+@media only screen and (max-width: 767px) {
+    .who-are-we-heading {
+        display: none;
+    }
+
+    .who-are-we-heading-mobile {
+        display: block;
+    }
+
+    .who-are-we-container {
+        margin: 0 20px;
+    }
+
+    .who-are-we {
+        display: block;
+    }
+
+    .who-are-we img {
+        width: 320px;
+        margin: 20px auto;
+    }
+
+    .who-are-we p {
+        width: 100%;
+        margin: auto;
+    }
+
+    .who-are-we-line {
+        margin: 30px 0;
+        width: 100%;
+    }
+  }

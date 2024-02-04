@@ -1,3 +1,7 @@
+.fastest-growing-heading-mobile {
+    display: none;
+}
+
 .fastest-growing-heading {
     width: 1000px;
     margin: 30px 0px 0px 65px;
@@ -17,3 +21,30 @@
     right: 0;
     margin: 50px auto;
 }
+
+@media only screen and (max-width: 767px) {
+    .fastest-growing-heading {
+        display: none;
+    }
+    .fastest-growing-heading-mobile {
+        display: block;
+    }
+
+    .fastest-growing-container {
+        margin: 20px 20px;
+    }
+
+    .fastest-growing-desc {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fastest-growing-desc div {
+        width: 100%;
+    }
+
+    .fastest-growing-line{
+        width: 100%;
+        margin: 0;
+    }
+  }

@@ -1,0 +1,9 @@
+.coming-soon-container {
+    margin: 50px auto;
+}
+
+@media only screen and (max-width: 767px) {
+    .coming-soon-pic {
+        width: 350px;
+    }
+  }

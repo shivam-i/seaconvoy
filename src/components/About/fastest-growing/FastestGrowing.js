@@ -6,6 +6,7 @@ function FastestGrowing() {
   return (
     <div className="fastest-growing-container">
       <img className="fastest-growing-heading" src="./images/about-page/fastest-growing/fastest-growing-title.svg" alt="" />
+      <img className="fastest-growing-heading-mobile" src="./images/about-page/fastest-growing/fastest-growing-title-mobile.svg" alt="" />
       <div className="fastest-growing-desc">
         <div>
           <p>The Seaconvoy team consists of professionals who graduated and worked at IIT Madras. The team's proficiency is in the fields of naval architecture, mechanical engineering, embedded systems design, and marine robotics.</p>

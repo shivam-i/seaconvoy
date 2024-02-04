@@ -37,16 +37,32 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .seaconvoy-desc {
+    margin: 30px 20px 0px 20px;
+    height: 80vh;
+    border-bottom: #005669 solid 2px;
+    /* Makes direct children (.seaconvoy-desc-content) flex items */
+  }
   .seaconvoy-desc-bg-pic {
     display: none;
   }
-
-  .seaconvoy-desc-heading{
-    width: 400px;
-  }
-
+  
   .seaconvoy-desc-container {
+    margin: 0px 0px;
     margin: 0px;
     width: 300px;
+  }
+  
+  .seaconvoy-desc-container p span {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .seaconvoy-desc-heading{
+    width: 350px;
+    margin: 0px 0px 10px 0px;
+  }
+  
+  .seaconvoy-desc-container p {
+    font-size: 15px;
   }
 }

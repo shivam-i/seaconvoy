@@ -12,23 +12,44 @@ function Gallery() {
     './images/home-page/gallery/Seaconvoy_010224_7.JPG',
     './images/home-page/gallery/Seaconvoy_010224_8.JPG',
     './images/home-page/gallery/Seaconvoy_010224_9.jpg',
-    
-
+  ];
+  const imagesMobile = [
+    './images/home-page/gallery/Seaconvoy_010224_1.png',
+    './images/home-page/gallery/Seaconvoy_010224_2.jpg',
+    './images/home-page/gallery/Seaconvoy_010224_3.png',
+    './images/home-page/gallery/Seaconvoy_010224_4.JPG',
+    './images/home-page/gallery/Seaconvoy_010224_5.JPG',
   ];
 
   return (
-    <div className="gallery-section">
-      <center><img src="./images/home-page/gallery/gallery-heading.svg" alt=""></img></center>
-      <center><div className="gallery-grid">
-        {images.map((src, i) => (
-          <div className="gallery-item" key={i}>
-            <img src={src} alt={`Gallery item ${i + 1}`} width="425" height="270" />
-          </div>    
-        ))}
-      </div>
-      </center>
+    <div className="gallery-container">
+      <div className="gallery-section">
+        <img className='gallery-heading' src="./images/home-page/gallery/gallery-heading.svg" alt=""></img>
+        <div className="gallery-grid">
+          {images.map((src, i) => (
+            <div className="gallery-item" key={i}>
+              <img src={src} alt={`Gallery item ${i + 1}`} width="425" height="270" />
+            </div>
+          ))}
+        </div>
 
-      <div className='sized-box'></div>
+        <a className='more-images-btn' href="/Gallery">More Images</a>
+        <div className='sized-box'></div>
+      </div>
+      <div className="gallery-section-mobile">
+        <img className='gallery-heading' src="./images/home-page/gallery/gallery-heading.svg" alt=""></img>
+        <div className="gallery-grid">
+          {imagesMobile.map((src, i) => (
+            <div className="gallery-item" key={i}>
+              <img src={src} alt={`Gallery item ${i + 1}`} width="425" height="270" />
+            </div>
+          ))}
+        </div>
+
+        <a className='more-images-btn' href="/Gallery">More Images</a>
+
+        <div className='sized-box'></div>
+      </div>
     </div>
   );
 }
