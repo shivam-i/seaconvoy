@@ -16,8 +16,6 @@ function Footer() {
             <img className='partner-logo' src="./images/home-page/footer/Partner-logo 1.png" alt="" />
           </div>
 
-
-
           <div className="nav-and-social">
             <div className="footer-nav">
               <h3>Quick Links</h3>

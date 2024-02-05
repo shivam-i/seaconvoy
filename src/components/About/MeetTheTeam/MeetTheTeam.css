@@ -10,8 +10,8 @@
 .team-members {
     display: grid;
 
-    grid-template-rows: repeat(2, auto);
-    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-rows: repeat(1, auto);
+    grid-template-columns: repeat(5, 0.5fr);
     gap: 20px 0px;
 }
 
@@ -19,7 +19,7 @@
     /* left: 50%;
     transform: translate(37.5%, 0); */
     margin: 30px auto;
-    width: 70%;
+    width: 90%;
 }
 
 @media only screen and (max-width: 767px) {
