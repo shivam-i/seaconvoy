@@ -1,6 +1,7 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     position: relative; /* Added for absolute positioning context */
     z-index: 2; /* Ensure navbar is above other elements */
@@ -57,11 +58,12 @@
         display: none;
         flex-direction: column;
         align-items: flex-end; /* Align items to the right */
-        width: 100%;
+        width: 20%;
         position: absolute;
         top: 100%; /* Position below the nav-bar */
         right: 0;
         z-index: 3; /* Ensure list is above other elements */
+        background-color: black;
     }
 
     .nav-links.visible {

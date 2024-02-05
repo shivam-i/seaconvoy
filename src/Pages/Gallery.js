@@ -25,7 +25,7 @@ function Gallery() {
       ];
     
     return (
-      <div>
+      <div className="mgallery-container">
         <HerosSection imgUrl="./images/gallery/heros-section/heros-section-bg.png" imgUrlMobile="./images/gallery/heros-section/heros-section-bg-mobile.png" titleUrl="./images/gallery/heros-section/gallery-heading.svg" titleUrlMobile="./images/gallery/heros-section/gallery-heading-mobile.svg"/> 
 
         <div className="mgallery-section">

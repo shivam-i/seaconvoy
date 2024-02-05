@@ -1,20 +1,25 @@
 .fastest-growing-heading-mobile {
     display: none;
 }
-
+.fastest-growing-container {
+    width: 90%;
+    margin: 0 auto;
+}
 .fastest-growing-heading {
-    width: 1000px;
-    margin: 30px 0px 0px 65px;
+    width: 70%;
+    margin: 30px 0px 0px 0px;
 }
 
 .fastest-growing-desc {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 60px;
+    width: 90%;
 }
-.fastest-growing-desc div {
-    width: 25%;
-}
+/* .fastest-growing-desc div {
+    width: 60%;
+} */
 
 .fastest-growing-line {
     left: 0;
@@ -28,10 +33,12 @@
     }
     .fastest-growing-heading-mobile {
         display: block;
+        width: 100%;
     }
 
     .fastest-growing-container {
-        margin: 20px 20px;
+        width: 90%;
+        margin: 20px auto;
     }
 
     .fastest-growing-desc {

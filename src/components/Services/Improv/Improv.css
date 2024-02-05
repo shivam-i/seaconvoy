@@ -12,9 +12,11 @@
 
 @media only screen and (max-width: 767px) {
     .improv-container {
+      width: 90%;
+      margin: 20px auto;
       grid-template-columns: repeat(1, auto);
       grid-template-rows: repeat(3, auto);
     } .improv-container img {
-      width: 375px;
+      width: 100%;
   }
   }

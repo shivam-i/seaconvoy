@@ -38,8 +38,9 @@
 
 @media only screen and (max-width: 767px) {
   .seaconvoy-desc {
-    margin: 30px 20px 0px 20px;
+    margin: 0 auto;
     height: 80vh;
+    width: 90%;
     border-bottom: #005669 solid 2px;
     /* Makes direct children (.seaconvoy-desc-content) flex items */
   }
@@ -50,7 +51,7 @@
   .seaconvoy-desc-container {
     margin: 0px 0px;
     margin: 0px;
-    width: 300px;
+    width: 100%
   }
   
   .seaconvoy-desc-container p span {
@@ -58,7 +59,7 @@
     font-weight: 600;
   }
   .seaconvoy-desc-heading{
-    width: 350px;
+    width: 95%;
     margin: 0px 0px 10px 0px;
   }
   

@@ -9,6 +9,8 @@
     justify-content: center;
     margin-top: 67px;
     width: 547px;
+} .product-improve img {
+    margin-bottom: 20px;
 }
 
 /* .product-improve p {
@@ -31,6 +33,8 @@
     margin-left: 118px;
     margin-top: 67px;
     width: 547px;
+} .product-service img {
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -46,17 +50,18 @@
     }
 
     .product-services-heading-mobile {
-        width: 350px;
+        width: 90%;
     }
 
     .prod-serv-mobile {
         display: flex;
         flex-direction: column;
-        margin: 30px 20px;
+        width: 90%;
+        margin: 30px auto;
     }
 
     .prod-container img, .serv-container img{
-        width: 360px;
+        width: 100%;
         /* margin-left: 20px; */
     }
 
