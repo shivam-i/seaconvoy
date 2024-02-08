@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './gallery.css';
 
 function Gallery() {
@@ -46,7 +47,8 @@ function Gallery() {
           ))}
         </div>
 
-        <a className='more-images-btn' href="/Gallery">More Images</a>
+        <Link className='more-images-btn' to="/gallery">More Images</Link>
+        
 
         <div className='sized-box'></div>
       </div>
